@@ -16,9 +16,12 @@ This code uses the requests library together with Beautiful soup to connect and 
 
 if you are not sure that you have both Beautiful Soup and the Request library installed just do:
 
-pip install beautifulsoup4                                                                                                                                         pip install requests
+- pip install beautifulsoup4                                                                                                                                              
 
-After that just run it like any other script by using the command: python BS4Scraper.py                                                                    then just wait until its finished and then you should have a file named bookstoscrape.csv in the same folder as the script.
+- pip install requests
+
+After that just run it like any other script by using the command: python BS4Scraper.py                                                                    
+then just wait until it's finished and if nothing went wrong you should have a file named bookstoscrape.csv in the same folder as the script.
 
 
 
