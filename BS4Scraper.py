@@ -173,7 +173,7 @@ for i in range(len(book_link)):
 print("Done")
 print("writing the .csv...")
 # the code that writes the csv
-with open('books_genre.csv', 'w', encoding="utf-8", newline='') as outfile:
+with open('bookstoscrape.csv', 'w', encoding="utf-8", newline='') as outfile:
     fieldnames = ['title', 'description', 'genre' ,'price', 'stock']
     #i am using ; as a delimiter because there might be some comma as a part of the text in the description.
     writer = csv.DictWriter(outfile, fieldnames=fieldnames, delimiter=';',extrasaction='ignore')
