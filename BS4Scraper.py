@@ -1,7 +1,6 @@
 import re
 import requests
 from bs4 import BeautifulSoup
-from urllib.error import HTTPError
 import csv
 
 #this code is used to get all the links on the side_categories div
