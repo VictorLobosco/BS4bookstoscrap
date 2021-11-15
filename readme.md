@@ -1,6 +1,6 @@
 # BS4bookstoscrape
 
-A Python script that scrapes the [bookstoscrape] (https://books.toscrape.com/). website and then creates a .csv with the info obtained
+A Python script that scrapes the [bookstoscrape](https://books.toscrape.com/) website and then creates a .csv with the info obtained
 
 ## How it works
 
